@@ -1,0 +1,104 @@
+.top-picture {
+
+    min-width: 100% ;
+    min-height: 65vh;
+    max-height: 65vh;
+
+    background: url('/assets/img/m1/3.jpg');
+    background-size: cover;
+    background-position: 50% 68%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.medium {
+    padding-top: 2vh;
+    margin-bottom: 20vh;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    min-height: 150vh; //60
+    max-height: 150vh;
+}
+
+#model {
+
+    min-height: 60vh;
+    max-height: 60vh;
+    margin-top: 10vh;
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+/*
+#model-pic {
+
+    min-height: 60vh;
+
+    background-size: contain;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+
+}
+*/
+
+#model-picture {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+#model-text {
+
+    min-height: 60vh;
+
+    >h1 {
+        
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 12px;
+        color: #1a1b1f;
+        letter-spacing: 1px;
+
+    }
+
+    >p {
+
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #1a1b1f;
+        letter-spacing: 1px;
+
+    }
+        
+}
+
+ngx-gallery >>> .ngx-gallery-arrow {
+    
+    height: 100vh;
+
+}
+
+//plus
+@media (min-width: 410px) {
+
+}
+
+//ipad
+@media (min-width: 768px) {
+
+}
+
+//ipad pro
+@media (min-width: 992px) {
+
+}
+
+//ekranlar
+@media (min-width: 1200px) {
+
+}

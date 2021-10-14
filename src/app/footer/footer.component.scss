@@ -1,0 +1,332 @@
+// iphone 5-6-7-8-x
+.footer {
+
+    position: static;
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.0)), url('/assets/img/footer-5.jpg');
+    background-size: cover;
+    background-position: 50% 65%;
+    background-repeat: no-repeat;
+    
+    width: 100%;
+    height: 45vh;
+
+    display: flex;
+    flex-wrap: nowrap;
+    
+}
+
+#footer-left {
+
+    text-align: left;
+    color: whitesmoke;
+    font-family: 'Raleway';
+    padding-top: 12vh;
+
+    #contact {
+        font-size: 17px;
+        padding-bottom: 3vh;
+        letter-spacing: 2px;
+    }
+
+    >p {
+        font-size: 13px;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-bottom: 0;
+        letter-spacing: 2px;
+    }
+
+}
+
+#footer-right {
+
+    text-align: left;
+    padding-top: 12vh;
+
+    >p {
+
+        font-family: 'Raleway';
+        font-size: 17px;
+        color: whitesmoke;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-bottom: 0;
+
+    }
+}
+
+/*SOCIAL ICONLAR*/
+
+.social-icon {
+    
+    color: #fff;
+    
+}
+
+.fa-instagram {
+    
+    font-size: 18px;
+    padding-top: 3vh;
+    width: 17%;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .3s;
+    text-align: left;
+    
+}
+.fa-instagram:hover {
+    
+    color: #bc2a8d; /*e64a41 kÄ±rmÄ±zÄ±*/
+    
+}
+
+.fa-facebook {
+    
+    font-size: 18px;
+    padding-top: 3vh;
+    width: 17%;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .3s;
+    text-align: left;
+    
+}
+.fa-facebook:hover {
+    
+    color: #3d5b99;
+    
+}
+
+.fa-linkedin {
+    
+    font-size: 18px;
+    padding-top: 3vh;
+    width: 17%;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .3s;
+    text-align: left;
+    
+}
+
+.fa-linkedin:hover {
+    
+    color: #e64a41; /*e64a41 kÄ±rmÄ±zÄ±*/
+    
+}
+
+.footerCredit {
+    
+    color:aliceblue;
+    font-size: 14.5px;
+    padding-top: 17px;
+    padding-left: 10vh;
+    
+}
+
+//iphone 5-6-7 plus
+@media (min-width: 410px) {
+
+}
+
+// ipad
+@media (min-width: 768px) {
+
+    .footer { 
+
+        height: 50vh;
+        background-position: 50% 65%;
+        
+    }
+    
+    #footer-left {
+    
+        
+        padding-top: 14vh;
+        padding-left: 10vw;
+
+        #contact {
+            font-size: 28px;
+            padding-bottom: 2vh;
+        }
+
+        >p {
+            font-size: 20px;
+        }
+    
+    }
+    
+    
+    
+    #footer-right {
+
+        padding-top: 14vh;
+    
+        >p {
+            font-size: 28px;
+        }
+    }
+
+    .fa-instagram {
+        font-size: 25px;
+        padding-top: 2vh;
+        width: 15%;
+    }
+    
+    .fa-facebook {
+        font-size: 25px;
+        padding-top: 2vh;
+        width: 15%;    
+    }
+    
+    .fa-linkedin {
+        font-size: 25px;
+        padding-top: 2vh;
+        width: 15%;    
+    }
+
+}
+
+//ipad pro
+@media (min-width: 992px) {
+
+    .footer { 
+
+        height: 50vh;
+        background-position: 50% 65%;
+
+    }
+    
+    #footer-left {
+    
+        
+        padding-top: 14vh;
+        padding-left: 10vw;
+
+        #contact {
+            font-size: 28px;
+            padding-bottom: 2vh;
+        }
+
+        >p {
+            font-size: 20px;
+        }
+    
+    }
+    
+    
+    
+    #footer-right {
+
+        padding-top: 14vh;
+    
+        >p {
+            font-size: 28px;
+        }
+    }
+
+    .fa-instagram {
+        font-size: 25px;
+        padding-top: 2vh;
+        width: 15%;
+    }
+    
+    .fa-facebook {
+        font-size: 25px;
+        padding-top: 2vh;
+        width: 15%;    
+    }
+    
+    .fa-linkedin {
+        font-size: 25px;
+        padding-top: 2vh;
+        width: 15%;    
+    }
+
+}
+
+//ekranlar
+@media (min-width: 1200px) {
+
+    .footer { 
+
+        height: 60vh;
+        background-position: 50% 80%;
+
+    }
+    
+    #footer-left {
+    
+        
+        padding-top: 14vh;
+        padding-left: 20vw;
+
+        #contact {
+            
+            font-family: 'Montserrat', sans-serif;
+            font-size: 35px;
+            line-height: 100%;
+            background-color: black;
+            padding-bottom: 0;
+            width: fit-content;
+            margin-bottom: 2px;
+
+        }
+
+        >p {
+
+            font-family: 'Montserrat', sans-serif;
+            font-size: 25px;
+            line-height: 100%;
+            background-color: black;
+            padding-bottom: 0;
+            width: fit-content;
+            margin-bottom: 2px;
+
+        }
+    
+    }
+    
+    
+    
+    #footer-right {
+
+        padding-top: 14vh;
+    
+        >p {
+
+            font-family: 'Montserrat', sans-serif;
+            font-size: 35px;
+            line-height: 100%;
+            background-color: black;
+            padding-bottom: 0;
+            width: fit-content;
+
+        }
+    }
+
+    .fa-instagram {
+        font-size: 30px;
+        padding-top: 3vh;
+        width: 7%;
+    }
+    
+    .fa-facebook {
+        font-size: 30px;
+        padding-top: 3vh;
+        width: 7%;    
+    }
+    
+    .fa-linkedin {
+        font-size: 30px;
+        padding-top: 3vh;
+        width: 7%;    
+    }
+
+}

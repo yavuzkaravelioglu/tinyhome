@@ -1,0 +1,343 @@
+.nav-link {
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#brand-div {
+
+    text-align: center;
+
+    .navbar-brand {
+
+        margin-right: 0 !important;
+        padding-top: 0;
+        
+        >img {
+            width: 21vw;
+            min-width: 21vw;
+            size: contain;
+        }
+    }
+
+}
+
+#left-nav ul {
+    
+    display: flex;
+    flex-direction: row;
+
+    li {
+        flex: 1;
+    }
+    
+}
+
+#right-nav ul {
+    
+    display: flex;
+    flex-direction: row;
+    
+    li {
+        flex: 1;
+    }
+
+}
+
+#link {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7px;
+    font-weight: 800;
+    color: black;
+    //color: rgb(255, 255, 255);
+
+    &:hover {
+        color: rgb(235, 232, 72, 0.8);
+    }
+
+}
+
+#nav-link-drop {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7px;
+    cursor: pointer;
+    color: black;
+    font-weight: 800;
+
+}
+
+#navbar-drop {
+
+    .dropdown-menu {
+
+        color: transparent;
+        background-color: transparent;
+        padding: 0rem;
+        margin: 0rem;
+        border: none;
+        margin-top:-5px !important;
+
+        >a {
+            
+            font-family: 'Montserrat', sans-serif;
+            font-size: 6px;
+            cursor: pointer;
+            padding-left: 0.1rem;
+            padding-right: 0.1rem;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.3);
+
+        }
+    }
+
+    .dropdown-menu a:hover {
+        font-weight: 800;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+}
+
+
+
+//plus
+@media (min-width: 410px) {
+
+    .container {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    #brand-div {
+
+        .navbar-brand {
+            padding-top: 0;
+            padding-bottom: 4px;
+            >img {
+                width: 22vw;
+                min-width: 22vw;
+            }
+        }
+        
+    }
+
+    #link {
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+
+    #nav-link-drop {
+        font-size: 8px;
+        letter-spacing: 1px;
+    }
+
+    #navbar-drop {
+
+        .dropdown-menu {
+
+            >a {
+                font-size: 7px;
+            }
+
+        }
+    
+        .dropdown-menu a:hover {
+            font-weight: 800;
+        }
+    
+    }
+
+    #navbar-drop:hover {
+        .dropdown-menu {display: block;} 
+    }
+
+}
+
+//ipad
+@media (min-width: 768px) {
+
+    .container {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    #brand-div {
+
+        .navbar-brand {
+            padding-top: 0;
+            padding-bottom: 4px;
+            >img {
+                width: 23vw;
+                min-width: 23vw;
+            }
+        }
+        
+    }
+
+    #link {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+
+    #nav-link-drop {
+        font-size: 12px;
+        letter-spacing: 1.5px;
+    }
+
+    #navbar-drop {
+
+        .dropdown-menu {
+
+            >a {
+                font-size: 10px;
+                letter-spacing: 1.5px;
+                padding-left: 0.2rem;
+                padding-right: 0.2rem;
+            }
+        }
+    
+        .dropdown-menu a:hover {
+            font-weight: 800;
+        }
+    
+    }
+
+    #navbar-drop:hover {
+        .dropdown-menu {display: block;} 
+    }
+
+}
+
+//ipad pro
+@media (min-width: 992px) {
+
+    .container {
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    #brand-div {
+
+        .navbar-brand {
+            padding-top: 0;
+            padding-bottom: 0px;
+            >img {
+                width: 24vw;
+                min-width: 24vw;
+            }
+        }
+        
+    }
+
+    #link {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+    #nav-link-drop {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+    #navbar-drop {
+
+        .dropdown-menu {
+
+            >a {        
+                font-size: 14px;
+                letter-spacing: 2px;
+                padding-left: 0.2rem;
+                padding-right: 0.2rem;
+            }
+
+        }
+    
+        .dropdown-menu a:hover {
+            font-weight: 800;
+        }
+    
+    }
+
+    #navbar-drop:hover {
+        .dropdown-menu {display: block;} 
+    }
+
+
+}
+
+//ekranlar
+@media (min-width: 1200px) {
+
+    .container {
+
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+        padding-left: 20vw;
+        padding-right: 20vw;
+
+    }
+
+    #brand-div {
+
+        .navbar-brand {
+            padding-top: 0;
+            padding-bottom: 0;
+            >img {
+                width: 6vw;
+                min-width: 6vw;
+            }
+        }
+
+    }
+
+    #link {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+    #nav-link-drop {
+        font-size: 16px;
+        letter-spacing: 2px;
+    }
+
+    #navbar-drop {
+
+        .dropdown-menu {
+
+            >a {
+                font-size: 12px;
+                letter-spacing: 2px;
+            }
+
+        }
+
+        .dropdown-menu a:hover {
+            font-weight: 800;
+        }
+
+    }
+
+    #navbar-drop:hover {
+        .dropdown-menu {display: block;} 
+    }
+
+}
